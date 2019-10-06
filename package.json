@@ -1,0 +1,37 @@
+{
+  "name": "@tanmulabs/micro-form-data",
+  "version": "1.0.0",
+  "description": "Parse multipart/form-data requests sent to a Micro endpoint",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmulabs/micro-form-data.git"
+  },
+  "keywords": [
+    "micro",
+    "form-data",
+    "multipart",
+    "middleware"
+  ],
+  "author": "Safia Abdalla <safia@safia.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanmulabs/micro-form-data/issues"
+  },
+  "homepage": "https://github.com/tanmulabs/micro-form-data#readme",
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "form-data": "^2.5.1",
+    "isomorphic-fetch": "^2.2.1",
+    "test-listen": "^1.1.0"
+  },
+  "dependencies": {
+    "micro": "^9.3.4"
+  }
+}
