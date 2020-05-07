@@ -16,7 +16,7 @@ module.exports = exports = fn =>
         const parsedBody = body.split(`--${boundary}`);
 
         parsedBody.map(field => {
-          const nameSearch = field.match(/name=\"(.*)\"/);
+          const nameSearch = field.match(/name=\"(.*?)\"/);
 
           if (nameSearch) {
             const fieldName = nameSearch[1];
